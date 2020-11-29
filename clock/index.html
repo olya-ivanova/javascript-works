@@ -1,1 +1,18 @@
-
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Clock</title>
+	</head>
+	<body>
+		<p id="clock"></p>
+		<script>
+			"use strict";
+			function showTime(){
+			let today = new Date();
+			let timeNow = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+			let clockId = document.getElementById("clock").innerHTML = timeNow;	
+			}
+			setInterval(showTime, 1000);
+		</script>
+	</body>
+</html>
