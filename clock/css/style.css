@@ -1,6 +1,15 @@
 body {
-	background-color: black;
+	background-color: gray;
+	color: antiquewhite;
+	text-align: center;
+	font-size: 100%;
+}
+h2{
+	font-family: serif;
+	font-size: 4.0em;
 }
 p {
-	color: white;
+	font-family: serif;
+	font-size: 8.0em;
+	margin-top: 0;
 }
