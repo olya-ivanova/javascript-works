@@ -2,6 +2,7 @@
 <html>
 	<head>
 		<title>Clock</title>
+		<link href="css/style.css" rel="stylesheet">
 	</head>
 	<body>
 		<p id="clock"></p>
@@ -10,9 +11,9 @@
 			function showTime(){
 			let today = new Date();
 			let timeNow = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
-			let clockId = document.getElementById("clock").innerHTML = timeNow;	
+			let clockId = document.getElementById( "clock" ).innerHTML = timeNow;	
 			}
-			setInterval(showTime, 1000);
+			setInterval( showTime, 1000 );
 		</script>
 	</body>
 </html>
